@@ -89,13 +89,14 @@ viewModel m@Model{..} =
           href_ "https://findmestore.thinkr.jp/products/kts-300-0245?_pos=50&_sid=126beefb6&_ss=r"
         ] ["この商品"]
       , text "のように、18種類の商品を3個パック単位で販売している場合などの購入するパック数とコンプリートする確率が気になったので作りました。ご自由にお使い下さい。KAMITSUBAKI STUDIOの場合は1パック内で種類が重複している例を見ていないため、その分補正した計算式になっています。詳しくは以下の解説ページをご覧ください。"
-      -- img_ [ src_ "/home/ueda/Programs/haskell/miso-test/app/static/asu.jpeg", alt_ "My oshi" ]
     ]
     , p_ [] [
-      , a_ [
+      a_ [
         href_ "https://zenn.dev/4ergfbv547uezdf/articles/da849d2dd2e8a9"
       ] ["解説ページ(zenn)"]
-      , a_ [
+    ]
+    , p_ [] [
+      a_ [
         href_ "https://github.com/yosukeueda33/syokugan"
       ] ["ソースコード(github)"]
     ]
